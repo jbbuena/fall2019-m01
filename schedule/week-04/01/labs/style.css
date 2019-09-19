@@ -1,5 +1,22 @@
 body {
-    background-color: red;   
+    background-color: #ccc;   
+}
+
+header>h4 {
+  color: orange;
+  text-align: center;
+}
+
+table>thead>tr {
+  background-color: #eaeaea;
+  color: #333;
+}
+tbody{
+  background-color: #565758;
+}
+tbody>tr>td>h4{
+  color: blue;
+  font-size: 16px;
 }
 
 /* 
