@@ -1,0 +1,11 @@
+header{
+    text-align: center;
+}
+body {
+    margin-left: 20em;
+    max-width: 70em;
+    line-height: 1.1em;
+    font-family: Helvetica, Tahoma, sans-serif;
+    background-color: rgb(201, 201, 201);
+    font-size: 12.5px;
+}
