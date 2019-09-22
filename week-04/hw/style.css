@@ -2,6 +2,8 @@ header{
     text-align: center;
 }
 body {
+    border-style: solid;
+    border-width: 3px;
     margin-left: 20em;
     max-width: 70em;
     line-height: 1.1em;
