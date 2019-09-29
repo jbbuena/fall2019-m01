@@ -76,3 +76,39 @@ footer {
 footer p {
     margin-bottom: .25rem;
 }
+
+.odd {
+    background: #f1f1f1;
+}
+
+.even {
+    background: #e1e1e1;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    
+}
+
+li {
+    padding: 10px;
+}
+
+.odd:hover{
+    color: rgb(68, 141, 236) 
+}
+
+.even:hover{
+    color: rgb(68, 141, 236) 
+}
+
+.odd:read-only{
+    width: 38.5%
+}
+
+.even:read-only{
+    width: 38.5%
+}
+
