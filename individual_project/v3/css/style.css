@@ -1,0 +1,238 @@
+/* Final Project CSS */
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
+html, body{
+    height: 100%;
+    width: 100%;
+    font-family: 'Raleway', sans-serif;
+    color: rgb(41, 41, 41);
+}
+
+.navbar{
+    padding: .5em;
+}
+
+.navbar-nav li{
+    padding-right: 1.5rem;
+}
+
+.nav-link {
+    font-size: 1rem;
+}
+
+.carousel-item img{
+    width: 100%;
+    height: auto;
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.carousel-caption h2{
+    font-size:5rem;
+    text-shadow: 1px 1px 10px rgb(0,0,0);
+    padding-bottom: 1rem;
+}
+
+.btn-primary{
+    background-color: rgb(253, 186, 129);
+    border: 3px solid rgb(253, 186, 129);
+}
+.btn-primary:hover{
+    background-color: rgb(253, 163, 172);
+    border: 3px solid rgb(253, 163, 172);
+}
+
+.btn-primary:hover:active{
+    background: rgb(253, 146, 157);
+    border: 3px solid rgb(253, 146, 157);
+}
+
+#page-heading{
+    text-align: center;
+    padding: 1rem;
+}
+
+.jumbotron{
+    padding: 1rem;
+    border-radius: 0;
+}
+
+.padding{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.jumbo{
+    width: 85%;
+    margin: 0 auto;
+}
+
+#quote{
+    background: url(../images/index/freeway.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+#fixed-1{
+    background: url(../images/stay/westside/apartment_view.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 8rem;
+}
+#fixed-2{
+    background: url(../images/stay/sfv/valley_sunset.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 8rem;
+}
+#fixed-3{
+    background: url(../images/stay/eastside/valley_view.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 8rem;
+}
+#fixed-4{
+    background: url(../images/stay/surrounding/malibu_sunset.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 8rem;
+}
+
+#food-fixed-1{
+    background: url(../images/eat/mf/TacoTruck_flickr.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 8rem;
+}
+
+#food-fixed-2{
+    background: url(../images/eat/ac/bulgogi.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 8rem;
+}
+
+#food-fixed-3{
+    background: url(../images/eat/sf/neptuneNet.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 8rem;
+}
+
+#food-fixed-4{
+    background: url(../images/eat/ir/applePan.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 8rem;
+}
+
+#activity-fixed-1{
+    background: url(../images/activities/attractions/hollywoodSign.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 8rem;
+}
+
+#activity-fixed-2{
+    background: url(../images/activities/culture/lacma.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 8rem;
+}
+
+#activity-fixed-3{
+    background: url(../images/activities/outdoors/griffith.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 8rem;
+}
+
+#activity-fixed-4{
+    background: url(../images/activities/shopping/melrose.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 8rem;
+}
+
+.jumbo hr{
+    text-align: center;
+    border-top: 1px solid #bbbbbb;
+    width: 100%;
+    margin-top: .3rem;
+    margin-bottom: 1rem;
+}
+
+footer{
+    background-image: linear-gradient(to bottom right, rgb(255, 215, 82), rgb(255,163,172));
+    color: #ffffff;
+    padding-top: .5rem;
+}
+
+@media (max-width: 992px) {
+
+}
+@media (max-width: 768px) {
+    .carousel-caption {
+        top: 50%;
+    }
+    .carousel-caption h2{
+        font-size: 2rem;
+        text-shadow: 1px 1px 10px rgb(0,0,0);
+        padding-bottom: .5rem;
+    }
+    .carousel-caption .btn{
+        font-size: 90%;
+        padding: 8px 14px;
+    }
+    .display-4{
+        font-size: 2rem;
+    }
+}
+@media (max-width: 576px) {
+    .carousel-caption {
+        top: 50%;
+    }
+    .carousel-caption h2{
+        font-size: 1rem;
+        text-shadow: 1px 1px 10px rgb(0,0,0);
+        padding-bottom: .5rem;
+    }
+    .carousel-caption .btn{
+        font-size: 75%;
+        padding: 6px 10px;
+    }
+    .carousel-indicators{
+        display: none;
+    }
+}
