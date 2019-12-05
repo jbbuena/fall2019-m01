@@ -20,6 +20,9 @@ html, body{
     font-size: 1rem;
 }
 
+.link{
+    color: #3455db;
+}
 .carousel-item img{
     width: 100%;
     height: auto;
