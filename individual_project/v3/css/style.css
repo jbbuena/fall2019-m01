@@ -82,11 +82,11 @@ h2{
 }
 
 .index-quote{
-    color: #b35252;
+    color: #000000;
 }
 
 #quote{
-    background: url(../images/index/sunset.png);
+    background: url(../images/index/pinkWall.jpg);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
