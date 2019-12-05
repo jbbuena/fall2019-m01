@@ -74,8 +74,12 @@ html, body{
     margin: 0 auto;
 }
 
+#index-quote{
+    color: #af5e66;
+}
+
 #quote{
-    background: url(../images/index/freeway.png);
+    background: url(../images/index/palmTrees.png);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
